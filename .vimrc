@@ -1,5 +1,5 @@
 set number relativenumber 
-syntax on
+syntax enable 
 set tabstop=2
 set autoindent
 set smartindent
@@ -10,3 +10,9 @@ set showcmd
 set wildmenu
 set showmatch
 set mouse=a
+set incsearch
+set hlsearch
+set visualbell
+set ttyfast
+set ruler
+colorscheme slate
