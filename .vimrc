@@ -12,7 +12,10 @@ set showmatch
 set mouse=a
 set incsearch
 set hlsearch
-set visualbell
+set visualbell errorbells
 set ttyfast
 set ruler
+set nowrap
+
 colorscheme slate
+set background=dark
