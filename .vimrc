@@ -1,5 +1,7 @@
-set number relativenumber 
 syntax enable 
+filetype on
+
+set number relativenumber 
 set tabstop=2
 set autoindent
 set smartindent
