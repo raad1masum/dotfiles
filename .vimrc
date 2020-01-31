@@ -24,6 +24,8 @@ set title
 colorscheme slate
 set background=dark
 
+highlight Comment ctermfg=gray
+
 set laststatus=2
 
 if !has('gui_running')
