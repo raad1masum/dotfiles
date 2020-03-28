@@ -1,6 +1,8 @@
 syntax enable 
 filetype on
 
+behave xterm
+
 set number relativenumber 
 set tabstop=2
 set autoindent
@@ -17,8 +19,6 @@ set hlsearch
 set visualbell
 set ttyfast
 set ruler
-set nowrap
-set spell
 set title
 
 colorscheme slate
