@@ -1,13 +1,11 @@
 syntax enable 
 filetype on
 
-behave xterm
-
 set number relativenumber 
-set tabstop=2
+set tabstop=1
 set autoindent
 set smartindent
-set expandtab
+set expandtab smarttab
 set softtabstop=4
 set cursorline
 set showcmd  
@@ -20,6 +18,7 @@ set visualbell
 set ttyfast
 set ruler
 set title
+set clipboard=unnamed
 
 colorscheme slate
 set background=dark
