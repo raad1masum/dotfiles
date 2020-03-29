@@ -3,6 +3,7 @@ filetype on
 
 set number relativenumber 
 set tabstop=1
+set shiftwidth=5
 set autoindent
 set smartindent
 set expandtab smarttab
@@ -41,3 +42,11 @@ let g:lightline = {
     \   'gitbranch': 'FugitiveHead'
     \ },
     \ }
+
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
