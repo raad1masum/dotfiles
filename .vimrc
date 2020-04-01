@@ -52,6 +52,7 @@ let g:lightline = {
     \ }
 
 inoremap ' ''<left>
+inoremap " ""<left>
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
