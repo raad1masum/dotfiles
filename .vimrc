@@ -19,6 +19,7 @@ set visualbell
 set ttyfast
 set ruler
 set title
+set spell
 set clipboard=unnamed
 
 colorscheme slate
@@ -35,6 +36,7 @@ if !has('gui_running')
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'preservim/nerdtree'
 Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 
 call vundle#end()
@@ -50,6 +52,9 @@ let g:lightline = {
     \   'gitbranch': 'FugitiveHead'
     \ },
     \ }
+
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 inoremap ' ''<left>
 inoremap " ""<left>
