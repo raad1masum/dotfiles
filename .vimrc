@@ -32,6 +32,14 @@ if !has('gui_running')
           set t_Co=256
           endif
 
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+
+call vundle#end()
+filetype plugin indent on
+
 let g:lightline = {
     \ 'colorscheme': 'powerline',
     \ 'active': {
@@ -43,7 +51,6 @@ let g:lightline = {
     \ },
     \ }
 
-inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
