@@ -36,6 +36,7 @@ if !has('gui_running')
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'morhetz/gruvbox'
 Plugin 'preservim/nerdtree'
 Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 
