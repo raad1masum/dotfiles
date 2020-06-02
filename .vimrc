@@ -37,8 +37,11 @@ Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
-""colorscheme gruvbox
 colorscheme medic_chalk
 set background=dark
 
 let g:coc_disable_startup_warning = 1
+
+map <C-f> <Esc><Esc>:Files!<CR>
+inoremap <C-f> <Esc><Esc>:BLines<CR>
+map <C-g> <Esc><Esc>:BCommits<CR>
