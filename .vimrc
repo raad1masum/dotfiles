@@ -5,8 +5,7 @@ set number relativenumber
 set tabstop=1
 set shiftwidth=5
 set autoindent
-set smartindent
-set expandtab smarttab
+set expandtab
 set softtabstop=4
 set cursorline
 set showcmd  
@@ -21,8 +20,9 @@ set ruler
 set title
 set spell
 set clipboard=unnamed
+set paste
 
-highlight Comment ctermfg=gray
+highlight Comment ctermfg=green
 
 set laststatus=2
 
