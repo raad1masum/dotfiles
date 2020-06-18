@@ -1,3 +1,4 @@
+" test gpg
 syntax on
 filetype on
 
