@@ -1,4 +1,3 @@
-" test gpg
 syntax on
 filetype on
 
@@ -24,6 +23,7 @@ highlight Comment ctermfg=green
 call plug#begin('~/.vim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'jiangmiao/auto-pairs'
 Plug 'tweekmonster/gofmt.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-utils/vim-man'
@@ -43,6 +43,6 @@ set background=dark
 
 let g:coc_disable_startup_warning = 1
 
-map <C-f> <Esc><Esc>:Files!<CR>
+map <C-f> <Esc><Esc>:Files<CR>
 inoremap <C-f> <Esc><Esc>:BLines<CR>
 map <C-g> <Esc><Esc>:BCommits<CR>
