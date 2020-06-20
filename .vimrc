@@ -6,7 +6,7 @@ set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
-set rnu
+set rnu nu
 set nowrap
 set smartcase
 set noswapfile
@@ -35,6 +35,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'gryf/pylint-vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'hugolgst/vimsence'
+Plug 'raad1masum/vim-code'
 
 call plug#end()
 
@@ -43,6 +45,8 @@ set background=dark
 
 let g:coc_disable_startup_warning = 1
 
-map <C-f> <Esc><Esc>:Files<CR>
-inoremap <C-f> <Esc><Esc>:BLines<CR>
+map <C-l> <Esc><Esc>:Files<CR>
+inoremap <C-l> <Esc><Esc>:BLines<CR>
 map <C-g> <Esc><Esc>:BCommits<CR>
+
+map <C-f> <Esc><Esc>:Code<CR>
