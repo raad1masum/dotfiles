@@ -36,7 +36,7 @@ Plug 'gryf/pylint-vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'hugolgst/vimsence'
-Plug 'raad1masum/vim-code'
+Plug 'raad1masum/vim-formatter'
 
 call plug#end()
 
@@ -49,4 +49,4 @@ map <C-l> <Esc><Esc>:Files<CR>
 inoremap <C-l> <Esc><Esc>:BLines<CR>
 map <C-g> <Esc><Esc>:BCommits<CR>
 
-map <C-f> <Esc><Esc>:Code<CR>
+map <C-f> <Esc><Esc>:Format<CR>
