@@ -17,19 +17,14 @@ set incsearch
 set mouse=a
 set clipboard=unnamedplus
 set ruler
+set termguicolors 
 
 highlight Comment ctermfg=green
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
-Plug 'tweekmonster/gofmt.vim'
-Plug 'tpope/vim-fugitive'
-Plug 'vim-utils/vim-man'
-Plug 'mbbill/undotree'
 Plug 'sheerun/vim-polyglot'
-Plug 'gruvbox-community/gruvbox'
 Plug 'ParamagicDev/vim-medic_chalk'
 Plug 'vim-airline/vim-airline'
 Plug 'gryf/pylint-vim'
@@ -37,11 +32,18 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'hugolgst/vimsence'
 Plug 'raad1masum/vim-formatter'
+Plug 'drewtempelmeyer/palenight.vim'
+Plug 'nanotech/jellybeans.vim'
+Plug 'joshdick/onedark.vim'
 
 call plug#end()
 
-colorscheme medic_chalk
+colorscheme onedark
+"" colorscheme palenight
+"" colorscheme jellybeans
 set background=dark
+
+let g:airline_theme='onedark'
 
 let g:coc_disable_startup_warning = 1
 
