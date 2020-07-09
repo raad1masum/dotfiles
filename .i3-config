@@ -223,6 +223,11 @@ bindsym XF86AudioPrev exec playerctl previous
 exec_always nitrogen --restore
 
 # Automatically open tabs
+exec google-chrome
+exec discord
+exec slack
+exec spotify
+exec gnome-terminal
 assign [class="Google-chrome"] $main
 assign [class="discord"] $main
 assign [class="Slack"] $main
