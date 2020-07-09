@@ -186,6 +186,8 @@ bar {
         font pango:Monospace 8
         colors {
             background #2a2f37
+            focused_workspace       #2a2f37 #2a2f37 #00e5ee #00e5ee   #2a2f37
+            inactive_workspace        #2a2f37 #2a2f37 #ffffff #292d2e   #222222
         }
 }
 
