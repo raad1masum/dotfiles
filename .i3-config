@@ -214,3 +214,4 @@ assign [class="discord"] $main
 assign [class="Slack"] $main
 assign [class="Spotify"] $media
 assign [class="Gnome-terminal"] $terminals
+bindsym $mod+m move workspace to output left
