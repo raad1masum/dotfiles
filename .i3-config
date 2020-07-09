@@ -116,9 +116,9 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
-set $main "Main"
-set $media "Media"
-set $terminals "Terminals"
+set $main "1: Main"
+set $media "2: Media"
+set $terminals "3: Terminals"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -205,4 +205,5 @@ bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
+# Automatically set background
 exec_always nitrogen --restore
