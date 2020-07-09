@@ -116,9 +116,9 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
-set $main "1: Main"
-set $media "2: Media"
-set $terminals "3: Terminals"
+set $main "1 "
+set $media "2 "
+set $terminals "3 "
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
