@@ -192,9 +192,9 @@ bar {
 # class                 border  backgr. text    indicator child_border
 client.focused          #2a2f37 #2a2f37 #00e5ee #00e5ee   #2a2f37
 client.focused_inactive #5f676a #5f676a #00e5ee #484e50   #5f676a
-client.unfocused        #333333 #222222 #00e5ee #292d2e   #222222
-client.urgent           #2f343a #900000 #00e5ee #900000   #900000
-client.placeholder      #000000 #0c0c0c #00e5ee #000000   #0c0c0c
+client.unfocused        #333333 #333333 #ffffff #292d2e   #222222
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 # Custom keybinds
 bindsym $mod+shift+x exec i3lock --color "#2a2f37"
