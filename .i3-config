@@ -222,3 +222,7 @@ assign [class="Gnome-terminal"] $terminals
 bindsym $mod+m move workspace to output left
 
 exec_always compton
+
+# Screen Shots
+bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
+bindsym Control+Print exec gnome-screenshot -i
