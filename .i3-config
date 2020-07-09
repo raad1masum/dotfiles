@@ -207,3 +207,10 @@ bindsym XF86AudioPrev exec playerctl previous
 
 # Automatically set background
 exec_always nitrogen --restore
+
+# Automatically open tabs
+assign [class="Google-chrome"] $main
+assign [class="discord"] $main
+assign [class="Slack"] $main
+assign [class="Spotify"] $media
+assign [class="Gnome-terminal"] $terminals
