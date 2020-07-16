@@ -228,6 +228,7 @@ exec discord
 exec slack
 exec spotify
 exec gnome-terminal
+exec flameshot
 assign [class="Google-chrome"] $main
 assign [class="discord"] $main
 assign [class="Slack"] $main
