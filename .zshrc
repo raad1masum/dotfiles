@@ -105,12 +105,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /tmp/powerlevel10k/powerlevel10k.zsh-theme
+source /opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-echo -e " \e[34m
+echo -e " \e[96m
  ██████╗ ██████╗  █████╗ ██╗   ██╗██╗████████╗██╗   ██╗
 ██╔════╝ ██╔══██╗██╔══██╗██║   ██║██║╚══██╔══╝╚██╗ ██╔╝
 ██║  ███╗██████╔╝███████║██║   ██║██║   ██║    ╚████╔╝ 
@@ -118,3 +118,20 @@ echo -e " \e[34m
 ╚██████╔╝██║  ██║██║  ██║ ╚████╔╝ ██║   ██║      ██║   
  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚═╝   ╚═╝      ╚═╝                                                      
 "
+source /opt/powerlevel10k/powerlevel10k.zsh-theme
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/gravity/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/gravity/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/gravity/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/gravity/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
