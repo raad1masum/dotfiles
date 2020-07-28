@@ -23,13 +23,13 @@ highlight Comment ctermfg=green
 call plug#begin('~/.vim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'ParamagicDev/vim-medic_chalk'
 Plug 'vim-airline/vim-airline'
 Plug 'gryf/pylint-vim'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
 Plug 'hugolgst/vimsence'
 Plug 'raad1masum/vim-formatter'
 Plug 'drewtempelmeyer/palenight.vim'
@@ -38,10 +38,13 @@ Plug 'joshdick/onedark.vim'
 
 call plug#end()
 
-colorscheme onedark
+""colorscheme onedark
 "" colorscheme palenight
-"" colorscheme jellybeans
+colorscheme jellybeans
 set background=dark
+
+let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 } }
+let $FZF_DEFAULT_OPS='--reverse'
 
 let g:airline_theme='onedark'
 
