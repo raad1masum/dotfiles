@@ -14,6 +14,7 @@ set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
+set hlsearch
 set mouse=a
 set clipboard=unnamedplus
 set ruler
@@ -44,7 +45,6 @@ colorscheme jellybeans
 set background=dark
 
 let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 } }
-let $FZF_DEFAULT_OPS='--reverse'
 
 let g:airline_theme='onedark'
 
