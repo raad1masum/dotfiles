@@ -14,7 +14,6 @@ set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
-set hlsearch
 set mouse=a
 set clipboard=unnamedplus
 set ruler
