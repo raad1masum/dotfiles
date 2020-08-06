@@ -245,7 +245,8 @@ exec_always compton
 # Screen Shots
 bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
 bindsym Control+Print exec gnome-screenshot -i
-bindsym $mod+shift+s exec flameshot gui
+bindsym $mod+shift+s --release exec scrot -s -e 'xclip -selection clipboard -t "image/png" < $f' 
+# bindsym $mod+shift+s exec flameshot gui
 
 # Gaps
 gaps inner 20
