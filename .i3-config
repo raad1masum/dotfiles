@@ -183,7 +183,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3blocks -c ~/.i3/i3blocks.conf
         position bottom
-        font pango:Monospace 8
+        font pango:Overpass Mono 10
         colors {
             background #2a2f37
             focused_workspace       #2a2f37 #2a2f37 #00e5ee #00e5ee   #2a2f37
@@ -218,6 +218,9 @@ bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+# Set display zoom
+xrandr --output DP-1 --scale 1.5x1.5
 
 # Automatically set background
 exec_always nitrogen --restore
