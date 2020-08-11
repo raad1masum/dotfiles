@@ -35,12 +35,14 @@ Plug 'raad1masum/vim-formatter'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'nanotech/jellybeans.vim'
 Plug 'joshdick/onedark.vim'
+Plug 'phanviet/vim-monokai-pro'
+Plug 'vim-syntastic/syntastic'
 
 call plug#end()
 
 ""colorscheme onedark
 "" colorscheme palenight
-colorscheme jellybeans
+colorscheme monokai_pro
 set background=dark
 
 let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 } }
@@ -54,3 +56,12 @@ inoremap <C-l> <Esc><Esc>:BLines<CR>
 map <C-g> <Esc><Esc>:BCommits<CR>
 
 map <C-f> <Esc><Esc>:Format<CR>
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
