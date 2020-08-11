@@ -186,21 +186,21 @@ bar {
         position bottom
         font pango:Overpass Mono 10
         colors {
-            background #2a2f37
-            focused_workspace       #2a2f37 #2a2f37 #00e5ee #00e5ee   #2a2f37
-            inactive_workspace        #2a2f37 #2a2f37 #ffffff #292d2e   #222222
+            background #23262f
+            focused_workspace       #23262f #23262f #00e5ee #00e5ee   #23262f
+            inactive_workspace        #23262f #23262f #ffffff #292d2e   #222222
         }
 }
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #2a2f37 #2a2f37 #00e5ee #00e5ee   #2a2f37
-client.focused_inactive #2a2f37 #2a2f37 #00e5ee #484e50   #5f676a
-client.unfocused        #2a2f37 #2a2f37 #ffffff #292d2e   #222222
+client.focused          #23262f #23262f #00e5ee #00e5ee   #23262f
+client.focused_inactive #23262f #23262f #00e5ee #484e50   #23262f
+client.unfocused        #23262f #23262f #ffffff #292d2e   #23262f
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 # Custom keybinds
-bindsym $mod+shift+x exec i3lock --color "#2a2f37"
+bindsym $mod+shift+x exec i3lock --color "#23262f"
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
