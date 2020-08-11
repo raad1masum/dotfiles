@@ -28,7 +28,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'ParamagicDev/vim-medic_chalk'
-Plug 'vim-airline/vim-airline'
+Plug 'itchyny/lightline.vim'
 Plug 'gryf/pylint-vim'
 Plug 'hugolgst/vimsence'
 Plug 'raad1masum/vim-formatter'
@@ -45,9 +45,12 @@ call plug#end()
 colorscheme monokai_pro
 set background=dark
 
-let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 } }
+set laststatus=2
+let g:lightline = {
+      \ 'colorscheme': 'monokai_pro',
+      \ }
 
-let g:airline_theme='onedark'
+let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 } }
 
 let g:coc_disable_startup_warning = 1
 
