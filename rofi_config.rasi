@@ -12,6 +12,10 @@ configuration {
   width: 900px;
 }
 
+#window {
+    border-radius: 20px;
+}
+
 inputbar {
   border: 0 0 1px 0;
   children: [prompt,entry];
