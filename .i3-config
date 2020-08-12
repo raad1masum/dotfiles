@@ -251,4 +251,5 @@ bindsym $mod+shift+s --release exec scrot -s -e 'xclip -selection clipboard -t "
 # Gaps
 gaps inner 20
 gaps outer 35
+smart_borders on
 for_window [class="^.*"] border pixel 2
