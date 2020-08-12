@@ -1,3 +1,9 @@
+configuration {
+  modi: "window,run,ssh,drun";
+  lines: 15;
+  font: "Source Code Pro 30";
+}
+
 * {
   background-color: #23262f;
   border-color: #23262f;
