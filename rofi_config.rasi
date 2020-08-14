@@ -5,8 +5,8 @@ configuration {
 }
 
 * {
-  background-color: #23262f;
-  border-color: #23262f;
+  background-color: #3d3b40;
+  border-color: #3d3b40;
   text-color: #ffffff;
   spacing: 0;
   width: 900px;
@@ -50,6 +50,6 @@ element {
 }
 
 element selected {
-  background-color: #2e343f;
-  text-color: #00e5ee;
+  background-color: #211f22;
+  text-color: #78dce8;
 }
