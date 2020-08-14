@@ -186,17 +186,17 @@ bar {
         position bottom
         font pango:Source Code Pro 10
         colors {
-            background #23262f
-            focused_workspace       #23262f #23262f #00e5ee #00e5ee   #23262f
-            inactive_workspace        #23262f #23262f #ffffff #23262f   #23262f
+            background #2b292e
+            focused_workspace       #2b292e #2b292e #ff6188 #00e5ee #23262f
+            inactive_workspace      #2b292e #2b292e #3d3b40 #23262f #23262f
         }
 }
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #23262f #23262f #00e5ee #00e5ee   #23262f
-client.focused_inactive #23262f #23262f #00e5ee #484e50   #23262f
-client.unfocused        #23262f #23262f #ffffff #292d2e   #23262f
-client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.focused          #2b292e #2b292e #78dce8 #00e5ee   #2b292e
+client.focused_inactive #2b292e #2b292e #78dce8 #484e50   #2b292e
+client.unfocused        #2b292e #2b292e #ffffff #292d2e   #2b292e
+client.urgent           #2b292e #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 # Custom keybinds
