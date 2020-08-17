@@ -1,5 +1,5 @@
 syntax on
-filetype on
+filetype plugin on
 
 set noerrorbells
 set tabstop=4 softtabstop=4
@@ -19,7 +19,7 @@ set clipboard=unnamedplus
 set ruler
 set termguicolors 
 
-highlight Comment ctermfg=green
+highlight Comment ctermfg=green cterm=italic gui=italic
 call plug#begin('~/.vim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -37,6 +37,7 @@ Plug 'nanotech/jellybeans.vim'
 Plug 'joshdick/onedark.vim'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'vim-syntastic/syntastic'
+Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
@@ -59,6 +60,8 @@ inoremap <C-l> <Esc><Esc>:BLines<CR>
 map <C-g> <Esc><Esc>:BCommits<CR>
 
 map <C-f> <Esc><Esc>:Format<CR>
+
+map <C-m> <plug>NERDCommenterToggle
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
