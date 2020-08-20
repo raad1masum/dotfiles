@@ -27,7 +27,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
-Plug 'ParamagicDev/vim-medic_chalk'
 Plug 'itchyny/lightline.vim'
 Plug 'gryf/pylint-vim'
 Plug 'hugolgst/vimsence'
@@ -41,7 +40,7 @@ Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
-""colorscheme onedark
+"" colorscheme onedark
 "" colorscheme palenight
 colorscheme monokai_pro
 set background=dark
