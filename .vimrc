@@ -35,6 +35,7 @@ Plug 'drewtempelmeyer/palenight.vim'
 Plug 'nanotech/jellybeans.vim'
 Plug 'joshdick/onedark.vim'
 Plug 'phanviet/vim-monokai-pro'
+Plug 'morhetz/gruvbox'
 Plug 'vim-syntastic/syntastic'
 Plug 'preservim/nerdcommenter'
 
@@ -42,6 +43,7 @@ call plug#end()
 
 "" colorscheme onedark
 "" colorscheme palenight
+"" colorscheme gruvbox
 colorscheme monokai_pro
 set background=dark
 
