@@ -141,5 +141,5 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 eval "$(starship init zsh)"
-source ~/.scripts/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
