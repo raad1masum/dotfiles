@@ -11,4 +11,4 @@ stashed_count.enabled = true
 staged_count.enabled = true
 modified_count.enabled = true
 deleted_count.enabled = true
-
+show_sync_count = true
