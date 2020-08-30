@@ -28,15 +28,11 @@ Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'itchyny/lightline.vim'
-Plug 'gryf/pylint-vim'
-"" Plug 'hugolgst/vimsence'
-Plug 'aurieh/discord.nvim', { 'do': ':UpdateRemotePlugins'}
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'nanotech/jellybeans.vim'
 Plug 'joshdick/onedark.vim'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'morhetz/gruvbox'
-Plug 'vim-syntastic/syntastic'
 Plug 'preservim/nerdcommenter'
 
 call plug#end()
@@ -72,5 +68,3 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-
-map <silent> <Esc> :DiscordUpdatePresence<CR>
