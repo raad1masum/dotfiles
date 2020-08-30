@@ -76,9 +76,7 @@ export TERM=xterm-256color
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git  zsh-autosuggestions)
-
-source $ZSH/oh-my-zsh.sh
+plugins=()
 
 # User configuration
 
@@ -144,3 +142,4 @@ unset __conda_setup
 
 eval "$(starship init zsh)"
 source ~/.scripts/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
