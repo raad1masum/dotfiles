@@ -111,6 +111,8 @@ alias tree='exa -a --icons --tree'
 alias prettier='npx prettier --write .'
 alias android_studio='/opt/android-studio/bin/studio.sh'
 alias cat='batcat'
+alias vi='nvim'
+alias vim='nvim'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
