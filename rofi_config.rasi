@@ -1,7 +1,7 @@
 configuration {
   modi: "window,run,ssh,drun";
   lines: 15;
-  font: "Source Code Pro 30";
+  font: "Source Code Pro 15";
 }
 
 * {
@@ -31,7 +31,7 @@ textbox {
   background-color: #2e343f;
   border: 0 0 1px 0;
   border-color: #282C33;
-  padding: 8px 16px;
+  padding: 8px;
 }
 
 entry {
@@ -46,7 +46,7 @@ listview {
 
 element {
   border: 0 0 1px 0;
-  padding: 16px;
+  padding: 10px;
 }
 
 element selected {
