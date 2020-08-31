@@ -1,0 +1,3 @@
+[2020-08-30 18:39:38.604] [sharedprocess] [info] main {"machineId":"39f062a760ba061b60a77725f6ecab98dd8b92da7d3e343199ed638e077dc865","windowId":2}
+[2020-08-30 18:39:38.630] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/gravity/.config/Code/User/snippets'
+[2020-08-30 18:40:18.614] [sharedprocess] [info] Starting to clean up unused language packs.

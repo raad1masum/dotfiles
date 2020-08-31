@@ -1,0 +1,130 @@
+[2020-08-30 18:35:27.276] [userDataSync] [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+[2020-08-30 18:35:27.276] [userDataSync] [info] Auto Sync is disabled.
+[2020-08-30 18:37:34.909] [userDataSync] [info] Did reset the local sync state.
+[2020-08-30 18:37:37.285] [userDataSync] [info] Settings: Updated local settings
+[2020-08-30 18:37:37.290] [userDataSync] [info] Settings: Updated last synchronized settings
+[2020-08-30 18:37:37.296] [userDataSync] [info] Keybindings: Updated local keybindings
+[2020-08-30 18:37:37.300] [userDataSync] [info] Keybindings: Updated last synchronized keybindings
+[2020-08-30 18:37:37.301] [userDataSync] [info] Snippets: No changes found during synchronizing snippets.
+[2020-08-30 18:37:37.306] [userDataSync] [info] Snippets: Updated last synchronized snippets
+[2020-08-30 18:37:37.313] [userDataSync] [info] GlobalState: Updated global state ["github-raad1masum","hasNotifiedOfSettingsAutosave","javascript.1.editedCount","javascript.1.editedDate","javascript.1.isCandidate","javascript.1.skipVersion","nps/isCandidate","nps/skipVersion","typescript.1.editedCount","typescript.1.editedDate","views.cachedViewContainerLocations","views.cachedViewPositions","workbench.view.extension.test.state.hidden","commandPalette.mru.cache","commandPalette.mru.counter","cpp.1.sessionCount","java.2.sessionCount","javascript.1.lastSessionDate","javascript.1.sessionCount","nps/lastSessionDate","nps/sessionCount","typescript.1.sessionCount","workbench.activity.pinnedViewlets2","workbench.explorer.views.state.hidden","workbench.panel.output.hidden","workbench.panel.pinnedPanels","workbench.scm.views.state.hidden","workbench.view.debug.state.hidden","workbench.view.extensions.state.hidden"]
+[2020-08-30 18:37:37.313] [userDataSync] [info] GlobalState: Updated local ui state
+[2020-08-30 18:37:37.321] [userDataSync] [info] GlobalState: Updated last synchronized ui state
+[2020-08-30 18:37:38.595] [userDataSync] [info] Extensions: Enabled extension thonymg.darkplusix 1.1.2
+[2020-08-30 18:37:38.597] [userDataSync] [info] Extensions: Enabled extension jprestidge.theme-material-theme 1.0.1
+[2020-08-30 18:37:38.598] [userDataSync] [info] Extensions: Enabled extension safin.techset 2.0.2
+[2020-08-30 18:37:38.599] [userDataSync] [info] Extensions: Enabled extension ankitcode.firefly 3.0.1
+[2020-08-30 18:37:38.600] [userDataSync] [info] Extensions: Enabled extension yurihs.sublime-vscode-theme 1.3.0
+[2020-08-30 18:37:38.602] [userDataSync] [info] Extensions: Enabled extension tushortz.python-extended-snippets 0.0.1
+[2020-08-30 18:37:38.603] [userDataSync] [info] Extensions: Enabled extension steoates.autoimport 1.5.3
+[2020-08-30 18:37:38.606] [userDataSync] [info] Extensions: Enabled extension yummygum.city-lights-theme 1.1.8
+[2020-08-30 18:37:38.609] [userDataSync] [info] Extensions: Enabled extension sdras.night-owl 1.1.3
+[2020-08-30 18:37:38.617] [userDataSync] [info] Extensions: Enabled extension equinusocio.vsc-material-theme-icons 1.2.0
+[2020-08-30 18:37:38.621] [userDataSync] [info] Extensions: Enabled extension aaron-bond.better-comments 2.1.0
+[2020-08-30 18:37:38.625] [userDataSync] [info] Extensions: Enabled extension ritwickdey.liveserver 5.6.1
+[2020-08-30 18:37:38.627] [userDataSync] [info] Extensions: Enabled extension equinusocio.vsc-material-theme 32.8.0
+[2020-08-30 18:37:38.637] [userDataSync] [info] Extensions: Enabled extension esbenp.prettier-vscode 5.5.0
+[2020-08-30 18:37:38.638] [userDataSync] [info] Extensions: Disabled extension lonefy.vscode-js-css-html-formatter 0.2.3
+[2020-08-30 18:37:38.640] [userDataSync] [info] Extensions: Enabled extension redhat.java 0.65.0
+[2020-08-30 18:37:38.664] [userDataSync] [info] Extensions: Enabled extension vscodevim.vim 1.16.0
+[2020-08-30 18:37:38.675] [userDataSync] [info] Extensions: Enabled extension zhuangtongfa.material-theme 3.8.7
+[2020-08-30 18:37:38.683] [userDataSync] [info] Extensions: Enabled extension kuanhulio.discord 0.0.6
+[2020-08-30 18:37:38.686] [userDataSync] [info] Extensions: Enabled extension nash.awesome-flutter-snippets 2.0.4
+[2020-08-30 18:37:38.714] [userDataSync] [info] Extensions: Enabled extension eliverlara.andromeda 1.7.0
+[2020-08-30 18:37:38.716] [userDataSync] [info] Extensions: Enabled extension apollographql.vscode-apollo 1.16.8
+[2020-08-30 18:37:38.717] [userDataSync] [info] Extensions: Enabled extension dart-code.flutter 3.13.2
+[2020-08-30 18:37:38.765] [userDataSync] [info] Extensions: Enabled extension nikolaosgeorgiou.html-fmt-vscode 0.6.0
+[2020-08-30 18:37:38.769] [userDataSync] [info] Extensions: Enabled extension marqu3s.aurora-x 2.0.2
+[2020-08-30 18:37:38.772] [userDataSync] [info] Extensions: Enabled extension helgardrichard.helium-icon-theme 1.0.0
+[2020-08-30 18:37:38.773] [userDataSync] [info] Extensions: Enabled extension handsomeone.8bit 0.1.3
+[2020-08-30 18:37:38.774] [userDataSync] [info] Extensions: Enabled extension eserozvataf.one-dark-pro-monokai-darker 1.1.0
+[2020-08-30 18:37:38.775] [userDataSync] [info] Extensions: Enabled extension monokai.theme-monokai-pro-vscode 1.1.17
+[2020-08-30 18:37:38.776] [userDataSync] [info] Extensions: Enabled extension mrpbennett.atlantic-night 1.22.0
+[2020-08-30 18:37:38.777] [userDataSync] [info] Extensions: Enabled extension formulahendry.auto-rename-tag 0.1.4
+[2020-08-30 18:37:38.778] [userDataSync] [info] Extensions: Enabled extension formulahendry.auto-complete-tag 0.1.0
+[2020-08-30 18:37:38.779] [userDataSync] [info] Extensions: Enabled extension austin.code-gnu-global 0.2.2
+[2020-08-30 18:37:38.780] [userDataSync] [info] Extensions: Enabled extension ritwickdey.live-sass 3.0.0
+[2020-08-30 18:37:38.782] [userDataSync] [info] Extensions: Enabled extension equinusocio.vsc-community-material-theme 1.4.2
+[2020-08-30 18:37:38.783] [userDataSync] [info] Extensions: Enabled extension formulahendry.auto-close-tag 0.5.8
+[2020-08-30 18:37:38.783] [userDataSync] [info] Extensions: Enabled extension jolaleye.horizon-theme-vscode 2.0.2
+[2020-08-30 18:37:38.784] [userDataSync] [info] Extensions: Enabled extension ecmel.vscode-html-css 0.2.3
+[2020-08-30 18:37:38.787] [userDataSync] [info] Extensions: Enabled extension foxundermoon.shell-format 7.0.1
+[2020-08-30 18:37:38.788] [userDataSync] [info] Extensions: Enabled extension pkief.material-icon-theme 4.2.0
+[2020-08-30 18:37:38.789] [userDataSync] [info] Extensions: Enabled extension ms-vscode.cpptools 0.29.0
+[2020-08-30 18:37:38.789] [userDataSync] [info] Extensions: Enabled extension ms-dotnettools.csharp 1.23.1
+[2020-08-30 18:37:38.791] [userDataSync] [info] Extensions: Enabled extension formulahendry.code-runner 0.11.0
+[2020-08-30 18:37:38.793] [userDataSync] [info] Extensions: Disabled extension hookyqr.beautify 1.5.0
+[2020-08-30 18:37:38.794] [userDataSync] [info] Extensions: Enabled extension golang.go 0.16.1
+[2020-08-30 18:37:38.795] [userDataSync] [info] Extensions: Enabled extension icrawl.discord-vscode 4.0.0
+[2020-08-30 18:37:38.797] [userDataSync] [info] Extensions: Enabled extension dart-code.dart-code 3.13.2
+[2020-08-30 18:37:38.808] [userDataSync] [info] Extensions: Enabled extension ms-python.python 2020.8.105045
+[2020-08-30 18:37:38.812] [userDataSync] [info] Extensions: Enabled extension jeff-hykin.better-cpp-syntax 1.14.32
+[2020-08-30 18:37:38.822] [userDataSync] [info] Extensions: Enabled extension ms-vsliveshare.vsliveshare 1.0.2731
+[2020-08-30 18:37:39.268] [userDataSync] [info] Extensions: Installed extension. vscodevim.vim 1.16.0
+[2020-08-30 18:37:39.291] [userDataSync] [info] Extensions: Installed extension. esbenp.prettier-vscode 5.5.0
+[2020-08-30 18:37:39.378] [userDataSync] [info] Extensions: Installed extension. aaron-bond.better-comments 2.1.0
+[2020-08-30 18:37:39.648] [userDataSync] [info] Extensions: Installed extension. equinusocio.vsc-community-material-theme 1.4.2
+[2020-08-30 18:37:39.694] [userDataSync] [info] Extensions: Installed extension. ms-dotnettools.csharp 1.23.1
+[2020-08-30 18:37:39.814] [userDataSync] [info] Extensions: Installed extension. thonymg.darkplusix 1.1.2
+[2020-08-30 18:37:39.857] [userDataSync] [info] Extensions: Installed extension. yurihs.sublime-vscode-theme 1.3.0
+[2020-08-30 18:37:39.873] [userDataSync] [info] Extensions: Installed extension. jprestidge.theme-material-theme 1.0.1
+[2020-08-30 18:37:39.876] [userDataSync] [info] Extensions: Installed extension. safin.techset 2.0.2
+[2020-08-30 18:37:39.913] [userDataSync] [info] Extensions: Installed extension. tushortz.python-extended-snippets 0.0.1
+[2020-08-30 18:37:39.915] [userDataSync] [info] Extensions: Installed extension. yummygum.city-lights-theme 1.1.8
+[2020-08-30 18:37:40.012] [userDataSync] [info] Extensions: Installed extension. nikolaosgeorgiou.html-fmt-vscode 0.6.0
+[2020-08-30 18:37:40.015] [userDataSync] [info] Extensions: Installed extension. handsomeone.8bit 0.1.3
+[2020-08-30 18:37:40.015] [userDataSync] [info] Extensions: Installed extension. eliverlara.andromeda 1.7.0
+[2020-08-30 18:37:40.124] [userDataSync] [info] Extensions: Installed extension. nash.awesome-flutter-snippets 2.0.4
+[2020-08-30 18:37:40.202] [userDataSync] [info] Extensions: Installed extension. monokai.theme-monokai-pro-vscode 1.1.17
+[2020-08-30 18:37:40.422] [userDataSync] [info] Extensions: Installed extension. foxundermoon.shell-format 7.0.1
+[2020-08-30 18:37:40.458] [userDataSync] [info] Extensions: Installed extension. zhuangtongfa.material-theme 3.8.7
+[2020-08-30 18:37:40.485] [userDataSync] [info] Extensions: Installed extension. icrawl.discord-vscode 4.0.0
+[2020-08-30 18:37:40.530] [userDataSync] [info] Extensions: Installed extension. austin.code-gnu-global 0.2.2
+[2020-08-30 18:37:40.736] [userDataSync] [info] Extensions: Installed extension. sdras.night-owl 1.1.3
+[2020-08-30 18:37:40.751] [userDataSync] [info] Extensions: Installed extension. formulahendry.auto-close-tag 0.5.8
+[2020-08-30 18:37:40.764] [userDataSync] [info] Extensions: Installed extension. formulahendry.auto-rename-tag 0.1.4
+[2020-08-30 18:37:40.765] [userDataSync] [info] Extensions: Installed extension. formulahendry.auto-complete-tag 0.1.0
+[2020-08-30 18:37:40.791] [userDataSync] [info] Extensions: Installed extension. ecmel.vscode-html-css 0.2.3
+[2020-08-30 18:37:40.822] [userDataSync] [info] Extensions: Installed extension. jolaleye.horizon-theme-vscode 2.0.2
+[2020-08-30 18:37:40.906] [userDataSync] [info] Extensions: Installed extension. marqu3s.aurora-x 2.0.2
+[2020-08-30 18:37:40.960] [userDataSync] [info] Extensions: Installed extension. mrpbennett.atlantic-night 1.22.0
+[2020-08-30 18:37:40.964] [userDataSync] [info] Extensions: Installed extension. ankitcode.firefly 3.0.1
+[2020-08-30 18:37:40.973] [userDataSync] [info] Extensions: Installed extension. lonefy.vscode-js-css-html-formatter 0.2.3
+[2020-08-30 18:37:41.220] [userDataSync] [info] Extensions: Installed extension. formulahendry.code-runner 0.11.0
+[2020-08-30 18:37:41.249] [userDataSync] [info] Extensions: Installed extension. golang.go 0.16.1
+[2020-08-30 18:37:41.348] [userDataSync] [info] Extensions: Installed extension. eserozvataf.one-dark-pro-monokai-darker 1.1.0
+[2020-08-30 18:37:41.467] [userDataSync] [info] Extensions: Installed extension. jeff-hykin.better-cpp-syntax 1.14.32
+[2020-08-30 18:37:41.704] [userDataSync] [info] Extensions: Installed extension. hookyqr.beautify 1.5.0
+[2020-08-30 18:37:42.175] [userDataSync] [info] Extensions: Installed extension. ms-vscode.cpptools 0.29.0
+[2020-08-30 18:37:42.369] [userDataSync] [info] Extensions: Installed extension. equinusocio.vsc-material-theme-icons 1.2.0
+[2020-08-30 18:37:42.370] [userDataSync] [info] Extensions: Installed extension. equinusocio.vsc-material-theme 32.8.0
+[2020-08-30 18:37:42.411] [userDataSync] [info] Extensions: Installed extension. helgardrichard.helium-icon-theme 1.0.0
+[2020-08-30 18:37:42.539] [userDataSync] [info] Extensions: Installed extension. pkief.material-icon-theme 4.2.0
+[2020-08-30 18:37:43.380] [userDataSync] [info] Extensions: Installed extension. ritwickdey.liveserver 5.6.1
+[2020-08-30 18:37:43.380] [userDataSync] [info] Extensions: Installed extension. ritwickdey.live-sass 3.0.0
+[2020-08-30 18:37:43.944] [userDataSync] [info] Extensions: Installed extension. steoates.autoimport 1.5.3
+[2020-08-30 18:37:44.271] [userDataSync] [info] Extensions: Installed extension. dart-code.dart-code 3.13.2
+[2020-08-30 18:37:44.271] [userDataSync] [info] Extensions: Installed extension. dart-code.flutter 3.13.2
+[2020-08-30 18:37:45.433] [userDataSync] [info] Extensions: Installed extension. ms-vsliveshare.vsliveshare 1.0.2731
+[2020-08-30 18:37:45.435] [userDataSync] [info] Extensions: Installed extension. kuanhulio.discord 0.0.6
+[2020-08-30 18:37:46.613] [userDataSync] [info] Extensions: Installed extension. apollographql.vscode-apollo 1.16.8
+[2020-08-30 18:37:48.620] [userDataSync] [info] Extensions: Installed extension. redhat.java 0.65.0
+[2020-08-30 18:37:52.431] [userDataSync] [info] Extensions: Installed extension. ms-python.python 2020.8.105045
+[2020-08-30 18:37:52.437] [userDataSync] [info] Extensions: Updated last synchronized extensions
+[2020-08-30 18:37:52.503] [userDataSync] [info] Auto Sync: Started
+[2020-08-30 18:37:52.503] [userDataSync] [info] Auto Sync: Triggered by Interval
+[2020-08-30 18:37:52.752] [userDataSync] [info] Settings: No changes found during synchronizing settings.
+[2020-08-30 18:37:52.755] [userDataSync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2020-08-30 18:37:52.757] [userDataSync] [info] Snippets: No changes found during synchronizing snippets.
+[2020-08-30 18:37:52.774] [userDataSync] [info] GlobalState: Updated global state ["workbench.view.extension.flutter.state.hidden"]
+[2020-08-30 18:37:52.774] [userDataSync] [info] GlobalState: Updated local ui state
+[2020-08-30 18:37:52.780] [userDataSync] [info] GlobalState: Updated last synchronized ui state
+[2020-08-30 18:37:52.859] [userDataSync] [info] Extensions: No changes found during synchronizing extensions.
+[2020-08-30 18:37:52.860] [userDataSync] [info] Sync done. Took 146ms
+[2020-08-30 18:39:23.704] [userDataSync] [info] Auto Sync: Triggered by Activity
+[2020-08-30 18:39:23.816] [userDataSync] [info] Settings: No changes found during synchronizing settings.
+[2020-08-30 18:39:23.818] [userDataSync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2020-08-30 18:39:23.820] [userDataSync] [info] Snippets: No changes found during synchronizing snippets.
+[2020-08-30 18:39:23.825] [userDataSync] [info] GlobalState: No changes found during synchronizing ui state.
+[2020-08-30 18:39:23.883] [userDataSync] [info] Extensions: No changes found during synchronizing extensions.
+[2020-08-30 18:39:23.884] [userDataSync] [info] Sync done. Took 108ms

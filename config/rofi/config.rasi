@@ -1,0 +1,51 @@
+configuration {
+  modi: "window,run,ssh,drun";
+  lines: 15;
+  font: "Source Code Pro 15";
+}
+
+* {
+  background-color: #3d3b40;
+  border-color: #3d3b40;
+  text-color: #ffffff;
+  spacing: 0;
+  width: 900px;
+}
+
+inputbar {
+  border: 0 0 1px 0;
+  children: [prompt,entry];
+  text-color: #00e5ee;
+}
+
+prompt {
+  padding: 16px;
+  border: 0 1px 0 0;
+}
+
+textbox {
+  background-color: #2e343f;
+  border: 0 0 1px 0;
+  border-color: #282C33;
+  padding: 8px;
+}
+
+entry {
+  padding: 16px;
+}
+
+listview {
+  cycle: false;
+  margin: 0 0 -1px 0;
+  scrollbar: false;
+}
+
+element {
+  border: 0 0 1px 0;
+  padding: 10px;
+}
+
+element selected {
+  background-color: #211f22;
+  text-color: #78dce8;
+}
