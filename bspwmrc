@@ -2,9 +2,11 @@
 
 sxhkd &
 
+$HOME/.config/polybar/launch.sh
+
 #bspc monitor -d I II III IV V VI VII VIII IX X
-bspc monitor eDP-1 1 2 3 4 5
-bspc monitor DP-1 6 7 8 9 0
+bspc monitor eDP-1 -d I II III IV V VI VII VIII IX X 
+bspc monitor DP-1 -d I II III IV V VI VII VIII IX X
 xrandr --output eDP-1 --scale 0.5x0.5
 
 bspc config border_width         2
