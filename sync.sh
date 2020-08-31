@@ -18,8 +18,8 @@ cp ~/.config/neofetch/config.conf ./config/neofetch/config.conf
 cp ~/.config/coc/extensions/package.json ./config/coc/extensions/package.json
 cp ~/.config/coc/memos.json ./config/coc/memos.json
 
-echo "dotfiles successfully synced!"
-
 git add .
 git commit -a -m "automatically update dotfiles"
 git push
+
+echo "dotfiles successfully synced!"
