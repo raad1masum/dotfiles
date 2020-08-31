@@ -23,7 +23,7 @@ alert = #00d7ff
 [bar/example]
 monitor = ${env:MONITOR}
 width = 99%
-height = 32
+height = 35
 offset-x = 0.5%
 offset-y = 1%
 radius = 10
@@ -38,8 +38,8 @@ line-color = #f00
 border-size = 4
 border-color = #00000000
 
-padding-left = 1
-padding-right = 1
+padding-left = 2
+padding-right = 3
 
 module-margin-left = 1
 module-margin-right = 2
@@ -107,6 +107,9 @@ label-charging =  %percentage%%
 label-discharging =  %percentage%%
 label-full =  100%
 
+padding-left = 1
+padding-right = 1
+
 label-charging-foreground = ${colors.foreground}
 label-discharging-foreground = ${colors.foreground}
 label-full-foreground = ${colors.foreground}
@@ -115,5 +118,5 @@ label-full-foreground = ${colors.foreground}
 screenchange-reload = true
 
 [global/wm]
-margin-top = 3
+margin-top = 2
 margin-bottom = 5
