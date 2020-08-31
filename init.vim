@@ -56,8 +56,6 @@ map <C-l> <Esc><Esc>:Files<CR>
 inoremap <C-l> <Esc><Esc>:BLines<CR>
 map <C-g> <Esc><Esc>:BCommits<CR>
 
-map <C-f> <Esc><Esc>:Format<CR>
-
 map <C-m> <plug>NERDCommenterToggle
 
 set statusline+=%#warningmsg#
