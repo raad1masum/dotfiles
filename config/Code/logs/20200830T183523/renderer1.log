@@ -1,0 +1,8 @@
+[2020-08-30 18:37:42.674] [renderer1] [error] Cannot read property 'write' of null: TypeError: Cannot read property 'write' of null
+    at IPCTransport.send (/home/gravity/.vscode/extensions/icrawl.discord-vscode-4.0.0/dist/extension.js:2:104777)
+    at IPCTransport.close (/home/gravity/.vscode/extensions/icrawl.discord-vscode-4.0.0/dist/extension.js:2:104813)
+    at RPCClient.destroy (/home/gravity/.vscode/extensions/icrawl.discord-vscode-4.0.0/dist/extension.js:2:102127)
+    at RPCClient.dispose (/home/gravity/.vscode/extensions/icrawl.discord-vscode-4.0.0/dist/extension.js:2:89241)
+    at activate (/home/gravity/.vscode/extensions/icrawl.discord-vscode-4.0.0/dist/extension.js:2:84674)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)

@@ -1,0 +1,49 @@
+{
+  "sync.gist": "4b96f86f0100202583effcbba3e4154e",
+  "helium-icon-theme.showWelcomeMessage": false,
+  "editor.renameOnType": true,
+  "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+  "files.autoSave": "off",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "window.zoomLevel": 0,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "*.scss": "scss"
+  },
+  "liveSassCompile.settings.formats": [
+    {
+      "extensionName": ".min.css",
+      "format": "compressed"
+    }
+  ],
+  "editor.lineNumbers": "relative",
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "git.autofetch": true,
+}
