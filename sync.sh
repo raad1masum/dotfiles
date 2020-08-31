@@ -2,9 +2,9 @@
 
 echo "syncing dotfiles..."
 
-cp ~/.zshrc .zshrc
-cp ~/.vimrc .vimrc
-cp ~/.tmux.conf .tmux.conf
+cp ~/.zshrc ~/Github/dotfiles/.zshrc
+cp ~/.vimrc ~/Github/dotfiles/.vimrc
+cp ~/.tmux.conf ~/Github/dotfiles/.tmux.conf
 cp ~/.config/starship.toml ~/Github/dotfiles/config/starship.toml
 cp ~/.config/nvim/init.vim ~/Github/dotfiles/config/nvim/init.vim
 cp ~/.config/bspwm/bspwmrc ~/Github/dotfiles/config/bspwm/bspwmrc
@@ -17,6 +17,8 @@ cp ~/.config/rofi/config.rasi ~/Github/dotfiles/config/rofi/config.rasi
 cp ~/.config/neofetch/config.conf ~/Github/dotfiles/config/neofetch/config.conf
 cp ~/.config/coc/extensions/package.json ~/Github/dotfiles/config/coc/extensions/package.json
 cp ~/.config/coc/memos.json ~/Github/dotfiles/config/coc/memos.json
+
+cd ~/Github/dotfiles/
 
 git add .
 git commit -a -m "Automatically Update Dotfiles"
