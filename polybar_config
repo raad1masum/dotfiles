@@ -17,10 +17,8 @@
 ;==========================================================
 
 [colors]
-;background = ${xrdb:color0:#222}
 background = #2b292e
 background-alt = #3d3b40
-;foreground = ${xrdb:color7:#222}
 foreground = #f8f8f2
 foreground-alt = #dfdfdf
 primary = #ff6188
@@ -29,8 +27,6 @@ alert = #00d7ff
 
 [bar/example]
 
-font-0 = "Fantasque Sans Mono:pixelsize=13;3"
-font-1 = "Iosevka Nerd Font:pixelsize=13;3"
 
 monitor = ${env:MONITOR}
 width = 99%
@@ -56,13 +52,13 @@ padding-right = 1
 module-margin-left = 1
 module-margin-right = 2
 
-;font-0 = fixed:pixelsize=10;1
-;font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-0 = "Fira Mono:pixelsize=12;3"
+font-1 = "Iosevka Nerd Font:pixelsize=13;3"
 font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm i3
-modules-center = mpd
-modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
+modules-center = mpd date
+modules-right = 
 
 tray-position = 
 ;tray-padding = 2
