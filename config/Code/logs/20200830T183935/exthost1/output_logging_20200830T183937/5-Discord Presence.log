@@ -1,6 +1,0 @@
-Discord Presence activated!
-Logging into RPC...
-Encountered following error after trying to login:
-Error: Could not connect
-TypeError: Cannot read property 'write' of null
-Error: ENOENT: no such file or directory, unlink '/home/gravity/.local/share/vsliveshare/cascade.json'
