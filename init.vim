@@ -37,9 +37,6 @@ Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
-"" colorscheme onedark
-"" colorscheme palenight
-"" colorscheme gruvbox
 colorscheme monokai_pro
 set background=dark
 
