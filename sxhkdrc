@@ -19,7 +19,7 @@ super + Escape
 #
 
 # quit/restart bspwm
-super + alt + {q,r}
+super + shift + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
@@ -119,17 +119,6 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
-
-#super + {Down,Up}
-#    DIR={next,prev}; \
-#    bspc node -d "$DIR"; \
-#    bspc desktop -f "$DIR"
-
-#super + {left,right}
-#  desk=`bspc query -D -d focused`; \
-#  bspc desktop -m {prev,next}; \
-#  bspc monitor -f {prev,next}; \
-#  bspc desktop -f $desk
 
 super + shift + s
     flameshot gui
