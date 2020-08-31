@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "syncing dotfiles..."
+echo -e "\e[32msyncing dotfiles...\e[0m"
 
 cp ~/.zshrc ~/Github/dotfiles/.zshrc
 cp ~/.vimrc ~/Github/dotfiles/.vimrc
@@ -24,4 +24,4 @@ git add .
 git commit -a -m "Automatically Update Dotfiles"
 git push
 
-echo "dotfiles successfully synced!"
+echo -e "\e[32mdotfiles successfully synced\e[0m"
