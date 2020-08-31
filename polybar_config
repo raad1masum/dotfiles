@@ -50,7 +50,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm
 modules-center = date
-modules-right = battery
+modules-right = cpu memory battery pulseaudio
 
 tray-position = 
 
@@ -90,6 +90,20 @@ format-prefix-foreground = ${colors.foreground-alt}
 
 label = %date% %time%
 
+[module/cpu]
+type = internal/cpu
+interval = 5
+
+label =  %percentage%%
+label-foreground = ${colors.foreground}
+
+[module/memory]
+type = internal/memory
+format = <label>
+
+label = ﬙ %percentage_used%%
+label-foreground = ${colors.foreground}
+
 [module/battery]
 type = internal/battery
 
@@ -113,6 +127,18 @@ padding-right = 1
 label-charging-foreground = ${colors.foreground}
 label-discharging-foreground = ${colors.foreground}
 label-full-foreground = ${colors.foreground}
+
+[module/pulseaudio]
+type = internal/pulseaudio
+sink = alsa_output.pci-0000_00_1f.3.analog-stereo
+
+use-ui-max = true
+interval = 5
+
+label-volume = 墳 %percentage%%
+label-volume-foreground = ${colors.foreground}
+label-muted = 🔇 0%
+label-muted-foreground = ${colors.foreground}
 
 [settings]
 screenchange-reload = true
