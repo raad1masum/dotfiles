@@ -21,8 +21,6 @@ secondary = #00d787
 alert = #00d7ff
 
 [bar/example]
-
-
 monitor = ${env:MONITOR}
 width = 99%
 height = 32
@@ -50,9 +48,9 @@ font-0 = "Fira Mono:pixelsize=12;3"
 font-1 = "Iosevka Nerd Font:pixelsize=13;3"
 font-2 = siji:pixelsize=10;1
 
-modules-left = bspwm i3
-modules-center = mpd date
-modules-right = 
+modules-left = bspwm
+modules-center = date
+modules-right = battery
 
 tray-position = 
 
@@ -91,6 +89,27 @@ format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 
 label = %date% %time%
+
+[module/battery]
+type = internal/battery
+
+full-at = 95
+
+battery = BAT0
+adapter = AC0
+
+poll-interval = 10
+
+format-charging = <label-charging>
+format-discharging = <label-discharging>
+
+label-charging =  %percentage%%
+label-discharging =  %percentage%%
+label-full =  100%
+
+label-charging-foreground = ${colors.foreground}
+label-discharging-foreground = ${colors.foreground}
+label-full-foreground = ${colors.foreground}
 
 [settings]
 screenchange-reload = true
