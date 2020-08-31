@@ -29,7 +29,7 @@ alert = #00d7ff
 
 [bar/example]
 
-font-0 = "Fantasque Sans Mono:pixelsize=10;3"
+font-0 = "Fantasque Sans Mono:pixelsize=13;3"
 font-1 = "Iosevka Nerd Font:pixelsize=13;3"
 
 monitor = ${env:MONITOR}
@@ -122,54 +122,54 @@ label-empty = 
 
 ;label-focused = %index%
 label-focused-background = ${colors.background-alt}
-label-focused-padding = 2
+label-focused-padding = 1.9
 
 ;label-occupied = %index%
-label-occupied-padding = 2
+label-occupied-padding = 1.9
 
 ;label-urgent = %index%!
-label-urgent-padding = 2
+label-urgent-padding = 1.9
 
 ;label-empty = %index%
 label-empty-foreground = ${colors.foreground-alt}
-label-empty-padding = 2
+label-empty-padding = 1.9
 
 ; Separator in between workspaces
 ; label-separator = |
 
-[module/i3]
-type = internal/i3
-format = <label-state> <label-mode>
-index-sort = true
-wrapping-scroll = false
+;[module/i3]
+;type = internal/i3
+;format = <label-state> <label-mode>
+;index-sort = true
+;wrapping-scroll = false
 
-; Only show workspaces on the same output as the bar
-;pin-workspaces = true
+;; Only show workspaces on the same output as the bar
+;;pin-workspaces = true
 
-label-mode-padding = 2
-label-mode-foreground = #000
-label-mode-background = ${colors.primary}
+;label-mode-padding = 2
+;label-mode-foreground = #000
+;label-mode-background = ${colors.primary}
 
-; focused = Active workspace on focused monitor
-label-focused = %index%
-label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
-label-focused-padding = 2
+;; focused = Active workspace on focused monitor
+;label-focused = %index%
+;label-focused-background = ${colors.background-alt}
+;label-focused-underline= ${colors.primary}
+;label-focused-padding = 2
 
-; unfocused = Inactive workspace on any monitor
-label-unfocused = %index%
-label-unfocused-padding = 2
+;; unfocused = Inactive workspace on any monitor
+;label-unfocused = %index%
+;label-unfocused-padding = 2
 
-; visible = Active workspace on unfocused monitor
-label-visible = %index%
-label-visible-background = ${self.label-focused-background}
-label-visible-underline = ${self.label-focused-underline}
-label-visible-padding = ${self.label-focused-padding}
+;; visible = Active workspace on unfocused monitor
+;label-visible = %index%
+;label-visible-background = ${self.label-focused-background}
+;label-visible-underline = ${self.label-focused-underline}
+;label-visible-padding = ${self.label-focused-padding}
 
-; urgent = Workspace with urgency hint set
-label-urgent = %index%
-label-urgent-background = ${colors.alert}
-label-urgent-padding = 2
+;; urgent = Workspace with urgency hint set
+;label-urgent = %index%
+;label-urgent-background = ${colors.alert}
+;label-urgent-padding = 2
 
 ; Separator in between workspaces
 ; label-separator = |
