@@ -79,7 +79,7 @@ label-empty-padding = 1.9
 type = internal/date
 interval = 5
 
-date = " %Y/%m/%d"
+date = " %Y/%m/%d |"
 date-alt = " %Y-%m-%d"
 
 time = %I:%M %p
