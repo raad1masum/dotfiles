@@ -79,11 +79,11 @@ label-empty-padding = 1.9
 type = internal/date
 interval = 5
 
-date = " %Y/%m/%d |"
-date-alt = " %Y-%m-%d"
+date = " %m/%d/%Y |"
+date-alt = "Gravity"
 
 time = %I:%M %p
-time-alt = %H:%M:%S
+time-alt = " "
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
