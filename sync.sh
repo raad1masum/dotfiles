@@ -18,6 +18,7 @@ cp ~/.config/rofi/config.rasi ~/Github/dotfiles/config/rofi/config.rasi
 cp ~/.config/neofetch/config.conf ~/Github/dotfiles/config/neofetch/config.conf
 cp ~/.config/coc/extensions/package.json ~/Github/dotfiles/config/coc/extensions/package.json
 cp ~/.config/coc/memos.json ~/Github/dotfiles/config/coc/memos.json
+cp ~/.config/alacritty/alacritty.yml ~/Github/dotfiles/config/alacritty/alacritty.yml
 
 cd ~/Github/dotfiles/
 
