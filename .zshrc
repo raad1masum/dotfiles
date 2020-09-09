@@ -136,7 +136,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-#eval "$(starship init zsh)"
-fpath+=$HOME/.zsh/pure
-autoload -U promptinit; promptinit
-prompt pure
+eval "$(starship init zsh)"
