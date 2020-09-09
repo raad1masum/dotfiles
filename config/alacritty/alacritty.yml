@@ -1,0 +1,56 @@
+font:
+  size: 12
+  normal:
+    family: SauceCodePro Nerd Font
+    style: Regular
+  bold:
+    family: SauceCodePro Nerd Font
+  italic:
+    family: SauceCodePro Nerd Font
+
+colors:
+  primary:
+    background: '#2b292e'
+    foreground: '#f8f8f2'
+
+    dim_foreground:    '#f8f8f2'
+    bright_foreground: '#f8f8f2'
+
+  cursor:
+    text:   '#f8f8f2'
+    cursor: '#f8f8f2'
+
+  normal:
+    black:   '#3d3b40'
+    red:     '#ff6188'
+    green:   '#bc5653'
+    yellow:  '#ffd866'
+    blue:    '#00d7ff'
+    magenta: '#ab9df2'
+    cyan:    '#00d7ff'
+    white:   '#f8f8f2'
+
+  bright:
+    black:   '#3d3b40'
+    red:     '#ff6188'
+    green:   '#bc5653'
+    yellow:  '#ffd866'
+    blue:    '#00d7ff'
+    magenta: '#ab9df2'
+    cyan:    '#00d7ff'
+    white:   '#f8f8f2'
+
+  dim:
+    black:   '#3d3b40'
+    red:     '#ff6188'
+    green:   '#bc5653'
+    yellow:  '#ffd866'
+    blue:    '#00d7ff'
+    magenta: '#ab9df2'
+    cyan:    '#00d7ff'
+    white:   '#f8f8f2'
+
+window:
+    padding:
+        x: 15
+        y: 15
