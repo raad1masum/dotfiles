@@ -1,5 +1,5 @@
 font:
-  size: 12
+  size: 14
   normal:
     family: SauceCodePro Nerd Font
     style: Regular
@@ -22,9 +22,10 @@ colors:
 
   normal:
     black:   '#3d3b40'
-    red:     '#ff6188'
-    green:   '#bc5653'
+    red:     '#FF6188'
+    green:   '#00d787'
     yellow:  '#ffd866'
+    orange:  '#fc9867'
     blue:    '#00d7ff'
     magenta: '#ab9df2'
     cyan:    '#00d7ff'
@@ -32,8 +33,8 @@ colors:
 
   bright:
     black:   '#3d3b40'
-    red:     '#ff6188'
-    green:   '#bc5653'
+    red:     '#bc5653'
+    green:   '#00d787'
     yellow:  '#ffd866'
     blue:    '#00d7ff'
     magenta: '#ab9df2'
@@ -43,7 +44,7 @@ colors:
   dim:
     black:   '#3d3b40'
     red:     '#ff6188'
-    green:   '#bc5653'
+    green:   '#00d787'
     yellow:  '#ffd866'
     blue:    '#00d7ff'
     magenta: '#ab9df2'
@@ -52,5 +53,5 @@ colors:
 
 window:
     padding:
-        x: 15
-        y: 15
+        x: 20
+        y: 20
