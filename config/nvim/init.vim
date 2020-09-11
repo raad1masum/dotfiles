@@ -1,11 +1,10 @@
 syntax on
-filetype plugin on
+filetype indent plugin on
 
+set backspace=indent,eol,start
+set hidden
 set noerrorbells
-set tabstop=4 softtabstop=4
-set shiftwidth=4
-set expandtab
-set smartindent
+set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
 set rnu nu
 set nowrap
 set smartcase
