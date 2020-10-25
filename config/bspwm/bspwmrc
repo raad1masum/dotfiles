@@ -8,8 +8,8 @@ $HOME/.config/polybar/launch.sh
 
 nitrogen --restore
 
-bspc monitor eDP-1 -n 0 -d I II III IV V
-bspc monitor DP-1 -n 1 -d VI VII VIII IX X
+bspc monitor eDP-1 -d 1 2 3 4 5
+bspc monitor DP-2 -d 6 7 8 9 0
 xrandr --output eDP-1 --scale 0.5x0.5
 
 bspc config border_width         0
