@@ -1,0 +1,57 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 0,
+    "terminal.integrated.inheritEnv": false,
+    "python.jediEnabled": false,
+    "code-runner.runInTerminal": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "[html]": {
+        "editor.defaultFormatter": "mohd-akram.vscode-html-format",
+        "editor.formatOnSave": true
+    },
+    "editor.fontFamily": "JetBrains Mono",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "files.associations": {
+        "*.html": "html"  
+    },
+    "C_Cpp.updateChannel": "Insiders",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "editor.lineNumbers": "relative",
+    "vim.easymotion": true,
+    "vim.surround": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [" "],
+            "after": ["leader", "leader", "leader", "b", "d", "w"]
+        }
+    ],
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "sync.gist": "4b96f86f0100202583effcbba3e4154e",
+    "python.languageServer": "Microsoft",
+    "dart.flutterSdkPath": "C:\\src\\flutter"
+}
