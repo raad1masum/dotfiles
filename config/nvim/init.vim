@@ -18,7 +18,7 @@ set incsearch
 set mouse=a
 set clipboard=unnamedplus
 set ruler
-set termguicolors 
+set termguicolors
 
 highlight Comment ctermfg=green cterm=italic gui=italic
 call plug#begin('~/.vim/plugged')
@@ -38,7 +38,7 @@ Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
-colorscheme monokai_pro
+colorscheme palenight
 set background=dark
 
 set laststatus=2
