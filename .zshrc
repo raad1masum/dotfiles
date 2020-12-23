@@ -9,7 +9,7 @@ export TERM=xterm-256color
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# ZSH_THEME="daveverwer"
+ZSH_THEME="daveverwer"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -69,7 +69,7 @@ export TERM=xterm-256color
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git  zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -109,16 +109,7 @@ alias vi='nvim'
 alias vim='nvim'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-echo -e " \e[96m
- ██████╗ ██████╗  █████╗ ██╗   ██╗██╗████████╗██╗   ██╗
-██╔════╝ ██╔══██╗██╔══██╗██║   ██║██║╚══██╔══╝╚██╗ ██╔╝
-██║  ███╗██████╔╝███████║██║   ██║██║   ██║    ╚████╔╝ 
-██║   ██║██╔══██╗██╔══██║╚██╗ ██╔╝██║   ██║     ╚██╔╝  
-╚██████╔╝██║  ██║██║  ██║ ╚████╔╝ ██║   ██║      ██║   
- ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚═╝   ╚═╝      ╚═╝                                                      
-"
+# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # source /opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # >>> conda initialize >>>
@@ -135,5 +126,4 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
-eval "$(starship init zsh)"
+source /home/gravity/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
