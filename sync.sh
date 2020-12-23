@@ -13,7 +13,6 @@ cp ~/.config/i3/config ~/Github/dotfiles/config/i3/config
 cp ~/.config/i3/i3blocks.conf ~/Github/dotfiles/config/i3/i3blocks.conf
 cp ~/.config/polybar/config ~/Github/dotfiles/config/polybar/config
 cp ~/.config/polybar/launch.sh ~/Github/dotfiles/config/polybar/launch.sh
-cp ~/.config/dunst/dunstrc ~/Github/dotfiles/config/dust/dunstrc
 cp ~/.config/rofi/config.rasi ~/Github/dotfiles/config/rofi/config.rasi
 cp ~/.config/neofetch/config.conf ~/Github/dotfiles/config/neofetch/config.conf
 cp ~/.config/coc/extensions/package.json ~/Github/dotfiles/config/coc/extensions/package.json
