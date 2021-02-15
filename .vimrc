@@ -1,11 +1,12 @@
 syntax on
-filetype plugin on
+filetype indent plugin on
 
+set backspace=indent,eol,start
+set hidden
 set noerrorbells
-set tabstop=4 softtabstop=4
-set shiftwidth=4
-set expandtab
-set smartindent
+set visualbell
+set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
+setlocal colorcolumn=80
 set rnu nu
 set nowrap
 set smartcase
@@ -28,29 +29,22 @@ Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'itchyny/lightline.vim'
-Plug 'gryf/pylint-vim'
-Plug 'hugolgst/vimsence'
-Plug 'raad1masum/vim-formatter'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'nanotech/jellybeans.vim'
 Plug 'joshdick/onedark.vim'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'morhetz/gruvbox'
-Plug 'vim-syntastic/syntastic'
 Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
-"" colorscheme onedark
-"" colorscheme palenight
-"" colorscheme gruvbox
-colorscheme monokai_pro
+colorscheme jellybeans
 set background=dark
 
 set laststatus=2
-let g:lightline = {
-      \ 'colorscheme': 'monokai_pro',
-      \ }
+"let g:lightline = {
+      "\ 'colorscheme': 'monokai_pro',
+      "\ }
 
 let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 } }
 
@@ -59,8 +53,6 @@ let g:coc_disable_startup_warning = 1
 map <C-l> <Esc><Esc>:Files<CR>
 inoremap <C-l> <Esc><Esc>:BLines<CR>
 map <C-g> <Esc><Esc>:BCommits<CR>
-
-map <C-f> <Esc><Esc>:Format<CR>
 
 map <C-m> <plug>NERDCommenterToggle
 
@@ -72,3 +64,5 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+autocmd VimEnter * silent !ufw disable
