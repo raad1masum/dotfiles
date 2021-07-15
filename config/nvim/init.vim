@@ -4,6 +4,7 @@ filetype indent plugin on
 set backspace=indent,eol,start
 set hidden
 set noerrorbells
+set belloff=all
 set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
 setlocal colorcolumn=80
 set list!
