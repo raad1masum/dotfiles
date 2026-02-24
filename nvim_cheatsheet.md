@@ -16,7 +16,8 @@ Leader key: `Space`
 │       ├── treesitter.lua   Syntax highlighting
 │       ├── telescope.lua    Fuzzy finder
 │       ├── oil.lua          File explorer
-│       └── lualine.lua      Statusline
+│       ├── lualine.lua      Statusline
+│       └── git.lua          Diffview + gitsigns
 └── lazy-lock.json           Plugin version lockfile
 ```
 
@@ -174,6 +175,87 @@ The bottom bar shows (left to right):
 - Filename
 - Encoding, file format, filetype
 - Cursor line:column and percentage
+
+## Git — Neogit
+
+Interactive git UI. All keymaps start with `<Space>g`.
+
+| Keymap       | Action                  |
+|--------------|-------------------------|
+| `<Space>gg`  | Open Neogit status      |
+| `<Space>gc`  | Commit                  |
+| `<Space>gp`  | Push                    |
+| `<Space>gl`  | Pull                    |
+
+### Inside Neogit status (`<Space>gg`)
+
+| Key   | Action                                         |
+|-------|-------------------------------------------------|
+| `s`   | Stage file or hunk under cursor                |
+| `u`   | Unstage file or hunk                           |
+| `x`   | Discard changes under cursor                   |
+| `c`   | Open commit popup (then `c` again to confirm)  |
+| `p`   | Open push popup                                |
+| `F`   | Open pull popup                                |
+| `L`   | Open log popup                                 |
+| `b`   | Open branch popup                              |
+| `<Tab>` | Toggle section/diff fold                     |
+| `<Enter>` | Open file under cursor                     |
+| `q`   | Close Neogit                                   |
+
+### Typical commit workflow
+
+1. `<Space>gg` — open Neogit status
+2. Move to a file and press `s` to stage it (or stage individual hunks)
+3. Press `c` then `c` — opens the commit message editor
+4. Write your message, then `:wq` to finalize the commit
+5. Press `p` then `p` to push
+
+## Git — Diffview
+
+Side-by-side diff viewer, like VSCode/Zed.
+
+| Keymap       | Action                                    |
+|--------------|-------------------------------------------|
+| `<Space>gd`  | Open diff view (working tree vs index)   |
+| `<Space>gh`  | File history (git log for current file)  |
+| `<Space>gH`  | Repo history (git log for whole repo)    |
+| `<Space>gq`  | Close diff view                          |
+
+You can also open diffs against any ref with `:DiffviewOpen`:
+- `:DiffviewOpen HEAD~3` — last 3 commits
+- `:DiffviewOpen main` — diff against main branch
+- `:DiffviewOpen main...HEAD` — changes since branching from main
+
+### Inside Diffview
+
+| Key          | Action                          |
+|--------------|---------------------------------|
+| `<Tab>`      | Jump to next file in file panel |
+| `<S-Tab>`    | Jump to previous file           |
+| `<Enter>`    | Open/focus file                 |
+| `gf`         | Open file in a new split        |
+| `<leader>e`  | Toggle file panel               |
+| `q`          | Close diff view                 |
+
+## Git — Gitsigns
+
+Inline git gutter signs and hunk operations.
+
+| Keymap        | Action                       |
+|---------------|------------------------------|
+| `]h`          | Jump to next changed hunk    |
+| `[h`          | Jump to previous hunk        |
+| `<Space>hp`   | Preview hunk inline          |
+| `<Space>hs`   | Stage hunk                   |
+| `<Space>hr`   | Reset hunk (discard change)  |
+| `<Space>hu`   | Undo stage hunk              |
+| `<Space>hb`   | Blame current line           |
+
+The sign column shows change markers automatically:
+- Green bar: added lines
+- Blue bar: modified lines
+- Red triangle: deleted lines
 
 ## Plugin Management (lazy.nvim)
 
