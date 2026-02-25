@@ -44,6 +44,7 @@ vim.opt.clipboard = "unnamedplus"
 vim.keymap.set("n", "<leader>w", "<cmd>w<cr>", { desc = "Save file" })
 vim.keymap.set("n", "<leader>q", "<cmd>qa<cr>", { desc = "Quit all" })
 vim.keymap.set("n", "<leader>Q", "<cmd>qa!<cr>", { desc = "Force quit all" })
+vim.keymap.set("n", "<leader>s", "<cmd>wqa<cr>", { desc = "Save and quit all" })
 vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "Move to left pane" })
 vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Move to lower pane" })
 vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Move to upper pane" })
