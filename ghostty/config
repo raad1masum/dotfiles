@@ -1,0 +1,92 @@
+# Font (matching iTerm2: MesloLGS Nerd Font Regular, size 13)
+font-family = MesloLGS Nerd Font
+font-size = 13
+
+# Window
+window-padding-x = 0
+window-padding-y = 0
+
+# Terminal
+scrollback-limit = 1000
+
+# Cursor (block, no blink — matching iTerm2)
+cursor-style = block
+cursor-style-blink = false
+
+# Option key sends ESC+ (matching iTerm2 "Option Key Sends Meta")
+macos-option-as-alt = left
+
+
+# Background/Foreground (dark mode)
+background = #15191f
+foreground = #dcdcdc
+
+# Cursor colors
+cursor-color = #ffffff
+cursor-text = #000000
+
+# Selection colors
+selection-background = #b3d7ff
+selection-foreground = #000000
+
+# Bold color
+bold-is-bright = false
+
+# ANSI color palette (0-15)
+# Black
+palette = 0=#14191e
+# Red
+palette = 1=#b43c2a
+# Green
+palette = 2=#00c200
+# Yellow
+palette = 3=#c7c400
+# Blue
+palette = 4=#2744c7
+# Magenta
+palette = 5=#c040be
+# Cyan
+palette = 6=#00c5c7
+# White
+palette = 7=#c7c7c7
+# Bright Black
+palette = 8=#686868
+# Bright Red
+palette = 9=#dd7975
+# Bright Green
+palette = 10=#58e790
+# Bright Yellow
+palette = 11=#ece100
+# Bright Blue
+palette = 12=#a7abf2
+# Bright Magenta
+palette = 13=#e17ee1
+# Bright Cyan
+palette = 14=#60fdff
+# Bright White
+palette = 15=#ffffff
+
+# Link color
+link-url = true
+
+# Unbind Ghostty's default Cmd+N tab switching (must use digit_ prefix)
+keybind = cmd+digit_1=unbind
+keybind = cmd+digit_2=unbind
+keybind = cmd+digit_3=unbind
+keybind = cmd+digit_4=unbind
+keybind = cmd+digit_5=unbind
+keybind = cmd+digit_6=unbind
+keybind = cmd+digit_7=unbind
+keybind = cmd+digit_8=unbind
+keybind = cmd+digit_9=unbind
+
+# Cmd+N switches to tmux window N (sends Ctrl-B then digit)
+keybind = cmd+one=text:\x02\x31
+keybind = cmd+two=text:\x02\x32
+keybind = cmd+three=text:\x02\x33
+keybind = cmd+four=text:\x02\x34
+keybind = cmd+five=text:\x02\x35
+keybind = cmd+six=text:\x02\x36
+keybind = cmd+seven=text:\x02\x37
+keybind = cmd+eight=text:\x02\x38
+keybind = cmd+nine=text:\x02\x39
