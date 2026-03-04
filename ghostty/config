@@ -90,3 +90,6 @@ keybind = cmd+six=text:\x02\x36
 keybind = cmd+seven=text:\x02\x37
 keybind = cmd+eight=text:\x02\x38
 keybind = cmd+nine=text:\x02\x39
+
+# Shift+Enter sends newline (fixes Claude Code newline input)
+keybind = shift+enter=text:\n
