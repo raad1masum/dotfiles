@@ -3,8 +3,8 @@ font-family = JetBrainsMono Nerd Font
 font-size = 13
 
 # Window
-window-padding-x = 0
-window-padding-y = 0
+window-padding-x = 16
+window-padding-y = 10
 
 # Terminal
 scrollback-limit = 1000
@@ -93,3 +93,6 @@ keybind = cmd+nine=text:\x02\x39
 
 # Shift+Enter sends newline (fixes Claude Code newline input)
 keybind = shift+enter=text:\n
+
+desktop-notifications = true
+bell-features = system,attention,title
